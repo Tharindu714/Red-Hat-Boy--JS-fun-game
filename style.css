@@ -1,0 +1,333 @@
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: url("background.png");
+    background-size: cover;
+    overflow-x: hidden;
+    background-repeat: repeat-x;
+    position: absolute;
+}
+.background1{
+    width: 100%;
+    height: 100vh;
+    background-image: url("background1.png");
+    background-size: cover;
+    overflow-x: hidden;
+    background-repeat: repeat-x;
+    position: absolute;
+}
+.background2{
+    width: 100%;
+    height: 100vh;
+    background-image: url("background2.png");
+    background-size: cover;
+    overflow-x: hidden;
+    background-repeat: repeat-x;
+    position: absolute;
+}
+
+.background3{
+    width: 100%;
+    height: 100vh;
+    background-image: url("background3.png");
+    background-size: cover;
+    overflow-x: hidden;
+    background-repeat: repeat-x;
+    position: absolute;
+}
+
+.background4{
+    width: 100%;
+    height: 100vh;
+    background-image: url("background4.png");
+    background-size: cover;
+    overflow-x: hidden;
+    background-repeat: repeat-x;
+    position: absolute;
+}
+
+.background5{
+    width: 100%;
+    height: 100vh;
+    background-image: url("background5.png");
+    background-size: cover;
+    overflow-x: hidden;
+    background-repeat: repeat-x;
+    position: absolute;
+}
+
+
+.start{
+    width: 100%;
+    height: 100vh;
+    background-image: url("start.jpg");
+    background-size: cover;
+    overflow-x: hidden;
+    background-repeat: repeat-x;
+    position: absolute;
+}
+
+.body {
+    margin: 0px;
+}
+
+.boy {
+    height: 250px;
+    position: absolute;
+    margin-top: 320px;
+    margin-left: -30px;
+}
+
+.score {
+    position: absolute;
+    font-size: 60px;
+    margin-left: 35px;
+    margin-top: 40px;
+    font-family: "Arial";
+    font-weight: bold;
+}
+.score1{
+    position: absolute;
+    font-size: 60px;
+    margin-left: 230px;
+    margin-top: 40px;
+    font-family: "Arial";
+    font-weight: bold;
+}
+.score2{
+    position: absolute;
+    font-size: 40px;
+    margin-left: 350px;
+    margin-top: 50px;
+    font-family: "Arial";
+    font-weight: bold;
+    font-style: italic;
+    color: red;
+}
+.score3{
+    position: absolute;
+    font-size: 40px;
+    margin-left: 350px;
+    margin-top: 50px;
+    font-family: "Arial";
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+
+.score4{
+    position: absolute;
+    font-size: 40px;
+    margin-left: 350px;
+    margin-top: 50px;
+    font-family: "Arial";
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+.score5{
+    position: absolute;
+    font-size: 40px;
+    margin-left: 350px;
+    margin-top: 50px;
+    font-family: "Arial";
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(247, 1, 1);
+}
+
+.score6{
+    position: absolute;
+    font-size: 40px;
+    margin-left: 350px;
+    margin-top: 50px;
+    font-family: "Arial";
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
+
+.score7{
+    position: absolute;
+    font-size: 40px;
+    margin-left: 350px;
+    margin-top: 50px;
+    font-family: "Arial";
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+
+.box {
+    position: absolute;
+    width: 35px;
+    height: 100px;
+    background-image: url("flame.gif");
+    background-color: transparent;
+    margin-top: 470px;
+    background-size: 50px 100%;
+
+}
+
+.end {
+    width: 100%;
+    height: 100vh;
+    background-image: url("lost.png");
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 90px;
+    font-weight: bold;
+    color: rgb(247, 8, 8);
+    font-family: "Arial";
+    visibility: hidden;
+}
+
+
+.btn {
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgb(9, 184, 9);
+    color: rgb(0, 0, 0);
+    border-color: black ;
+    border-radius: 30px;
+    border: solid;
+    position: absolute;
+    margin-top: 350px;
+}
+
+.btn:hover{
+    cursor:pointer;
+    background-color: black;
+    color: antiquewhite;
+    border-color: rgb(9, 184, 9);
+    border: solid rgb(9, 184, 9);
+    transition-duration: 500ms;
+}
+
+.btn2{
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgb(9, 184, 9);
+    color: rgb(0, 0, 0);
+    border-color: black ;
+    border-radius: 30px;
+    border: solid;
+    position: absolute;
+    margin-top: 350px;
+}
+
+.btn2:hover{
+    cursor:pointer;
+    background-color: black;
+    color: antiquewhite;
+    border-color: rgb(9, 184, 9);
+    border: solid rgb(9, 184, 9);
+    transition-duration: 500ms;
+}
+
+.btn3{
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgb(9, 184, 9);
+    color: rgb(0, 0, 0);
+    border-color: black ;
+    border-radius: 30px;
+    border: solid;
+    position: absolute;
+    margin-top: 350px;
+}
+
+.btn3:hover{
+    cursor:pointer;
+    background-color: black;
+    color: antiquewhite;
+    border-color: rgb(9, 184, 9);
+    border: solid rgb(9, 184, 9);
+    transition-duration: 500ms;
+}
+
+.won {
+    width: 100%;
+    height: 100vh;
+    background-image: url("won.png");
+    margin: 0px;
+}
+
+.wonend {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 90px;
+    font-weight: bold;
+    color: rgb(1, 12, 73);
+    font-family: "Arial";
+}
+
+.cau{
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 30px;
+    font-style: italic;
+    color: rgb(31, 245, 2);
+}
+.cau1{
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 90px;
+    font-style: italic;
+    color: rgb(94, 243, 8);
+}
+.cau2{
+    font-size: 70px;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 150px;
+    font-style: italic;
+    color: rgb(156, 3, 156);
+}
+.btn1{
+    position: absolute;
+    margin-top: 460px;
+    margin-left: 80px;
+    width: 250px;
+    height: 100px;
+    border-radius: 100px;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    background-color: black;
+    border: solid 5px rgb(2, 245, 34);
+}
+.btn1:hover{
+    background-color: chartreuse;
+    color: black;
+    cursor: pointer;
+    border: solid 5px rgb(0, 0, 0);
+
+}
